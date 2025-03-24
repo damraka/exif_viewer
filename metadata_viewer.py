@@ -104,6 +104,6 @@ if __name__ == "__main__":
 
             show_exif_gui(exif_data, file_path)
         else:
-            print("No EXIF metadata to show—looks like the image is hiding its dark secrets.")
+            print("No EXIF metadata to show.")
     else:
-        print("No file selected. Quit stalling and pick an image already!")
+        print("No file selected.")
